@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+.quote{
+    length:30px;
+    width:360px;
+    padding-left:60px;
+}
+.container {
+            position: relative;
+            width: 600px; /* Adjust size as needed */
+            margin: 0 auto;
+        }
+        .container img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .area {
+            position: absolute;
+        }
+    
+        .area-2 {
+            top: 0px;
+            left: 130px;
+            width: 660px;
+            height: 80px;
+            padding-top: 200px;
+            position: absolute;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+   <h1 style="font-size: 50px; text-align: center;padding-top:60px;padding-bottom:50px;">Ferruccio Lamborghini</h1>
+   <div class="quote">
+   <p>“Lamborghini, you may be able to drive a tractor but you will never be able to handle a Ferrari Properly.’ This was the point when I finally decided to make a perfect car.”<br>      — Ferruccio Lamborghini</p>
+   </div>
+   <div class="container">
+    <img style="z-index: -2;left:0;top:0;bottom:0; height:100%; width:100%; position:fixed;object-fit: cover;" src="./e4c4af7a531c72e23e798a2b23b1e288.jpg" alt="Image with Areas">
+
+    <a  href="./page1.html" class="area area-2"></a>
+    <!-- Add more <a> elements for additional areas -->
+</div>
+
+</body>
+</html>
